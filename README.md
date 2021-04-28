@@ -1,2 +1,3 @@
 # dscb-exercise
-Aufgaben und Code zu den Übungen DSCB230
+
+Aufgaben und Code zu den Übungen DSCB230.
