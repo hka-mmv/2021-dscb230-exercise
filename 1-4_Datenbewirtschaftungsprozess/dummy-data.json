@@ -1,0 +1,701 @@
+[{
+  "id": 1,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Putnam Municipal Opportunities Trust",
+  "symbol": "PMO",
+  "market_cap": "$481M"
+}, {
+  "id": 2,
+  "sector": "Consumer Services",
+  "industry": "Motor Vehicles",
+  "name": "LKQ Corporation",
+  "symbol": "LKQ",
+  "market_cap": "$10B"
+}, {
+  "id": 3,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "iShares GNMA Bond ETF",
+  "symbol": "GNMA",
+  "market_cap": "$174.89M"
+}, {
+  "id": 4,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Principal U.S. Small Cap Index ETF",
+  "symbol": "PSC",
+  "market_cap": "$277.12M"
+}, {
+  "id": 5,
+  "sector": "Miscellaneous",
+  "industry": "Business Services",
+  "name": "Nielsen N.V.",
+  "symbol": "NLSN",
+  "market_cap": "$13.7B"
+}, {
+  "id": 6,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Advent/Claymore Enhanced Growth & Income Fund",
+  "symbol": "LCM",
+  "market_cap": "$119.57M"
+}, {
+  "id": 7,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Blackrock MuniHoldings Fund, Inc.",
+  "symbol": "MHD",
+  "market_cap": "$243.6M"
+}, {
+  "id": 8,
+  "sector": "Consumer Services",
+  "industry": "Real Estate Investment Trusts",
+  "name": "INVESCO MORTGAGE CAPITAL INC",
+  "symbol": "IVR",
+  "market_cap": "$1.9B"
+}, {
+  "id": 9,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "New Mountain Finance Corporation",
+  "symbol": "NMFC",
+  "market_cap": "$1.09B"
+}, {
+  "id": 10,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Vanguard Long-Term Government Bond ETF",
+  "symbol": "VGLT",
+  "market_cap": "$491.64M"
+}, {
+  "id": 11,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "KeyCorp",
+  "symbol": "KEY",
+  "market_cap": "$20.32B"
+}, {
+  "id": 12,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Goldman Sachs Group, Inc. (The)",
+  "symbol": "GS^B",
+  "market_cap": "n/a"
+}, {
+  "id": 13,
+  "sector": "Consumer Services",
+  "industry": "Broadcasting",
+  "name": "Sirius XM Holdings Inc.",
+  "symbol": "SIRI",
+  "market_cap": "$24.14B"
+}, {
+  "id": 14,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Wells Fargo & Company",
+  "symbol": "WFC^X",
+  "market_cap": "n/a"
+}, {
+  "id": 15,
+  "sector": "Finance",
+  "industry": "Savings Institutions",
+  "name": "HSBC Holdings plc",
+  "symbol": "HSBC",
+  "market_cap": "$176.43B"
+}, {
+  "id": 16,
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "name": "Qorvo, Inc.",
+  "symbol": "QRVO",
+  "market_cap": "$9.12B"
+}, {
+  "id": 17,
+  "sector": "Consumer Durables",
+  "industry": "Metal Fabrications",
+  "name": "American Superconductor Corporation",
+  "symbol": "AMSC",
+  "market_cap": "$87.9M"
+}, {
+  "id": 18,
+  "sector": "Health Care",
+  "industry": "Major Pharmaceuticals",
+  "name": "ImmunoGen, Inc.",
+  "symbol": "IMGN",
+  "market_cap": "$409.22M"
+}, {
+  "id": 19,
+  "sector": "Health Care",
+  "industry": "Major Pharmaceuticals",
+  "name": "Egalet Corporation",
+  "symbol": "EGLT",
+  "market_cap": "$70.95M"
+}, {
+  "id": 20,
+  "sector": "Technology",
+  "industry": "EDP Services",
+  "name": "Cognizant Technology Solutions Corporation",
+  "symbol": "CTSH",
+  "market_cap": "$39.22B"
+}, {
+  "id": 21,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "S&T Bancorp, Inc.",
+  "symbol": "STBA",
+  "market_cap": "$1.24B"
+}, {
+  "id": 22,
+  "sector": "Consumer Services",
+  "industry": "Professional Services",
+  "name": "Huron Consulting Group Inc.",
+  "symbol": "HURN",
+  "market_cap": "$935.95M"
+}, {
+  "id": 23,
+  "sector": "Public Utilities",
+  "industry": "Telecommunications Equipment",
+  "name": "Communications Systems, Inc.",
+  "symbol": "JCS",
+  "market_cap": "$42.39M"
+}, {
+  "id": 24,
+  "sector": "Capital Goods",
+  "industry": "Auto Manufacturing",
+  "name": "General Motors Company",
+  "symbol": "GM",
+  "market_cap": "$51.8B"
+}, {
+  "id": 25,
+  "sector": "Transportation",
+  "industry": "Oil Refining/Marketing",
+  "name": "Hunter Maritime Acquisition Corp.",
+  "symbol": "HUNTU",
+  "market_cap": "n/a"
+}, {
+  "id": 26,
+  "sector": "Finance",
+  "industry": "Life Insurance",
+  "name": "Aegon NV",
+  "symbol": "AEB",
+  "market_cap": "n/a"
+}, {
+  "id": 27,
+  "sector": "Technology",
+  "industry": "Industrial Machinery/Components",
+  "name": "Lam Research Corporation",
+  "symbol": "LRCX",
+  "market_cap": "$23.91B"
+}, {
+  "id": 28,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "Sandy Spring Bancorp, Inc.",
+  "symbol": "SASR",
+  "market_cap": "$970.14M"
+}, {
+  "id": 29,
+  "sector": "Capital Goods",
+  "industry": "Electrical Products",
+  "name": "Bel Fuse Inc.",
+  "symbol": "BELFB",
+  "market_cap": "$312.96M"
+}, {
+  "id": 30,
+  "sector": "Health Care",
+  "industry": "Medical Specialities",
+  "name": "Anthem, Inc.",
+  "symbol": "ANTM",
+  "market_cap": "$50.34B"
+}, {
+  "id": 31,
+  "sector": "Miscellaneous",
+  "industry": "Business Services",
+  "name": "Points International, Ltd.",
+  "symbol": "PCOM",
+  "market_cap": "$126.39M"
+}, {
+  "id": 32,
+  "sector": "Miscellaneous",
+  "industry": "Business Services",
+  "name": "The Priceline Group Inc. ",
+  "symbol": "PCLN",
+  "market_cap": "$88.58B"
+}, {
+  "id": 33,
+  "sector": "Consumer Services",
+  "industry": "Other Consumer Services",
+  "name": "Chegg, Inc.",
+  "symbol": "CHGG",
+  "market_cap": "$1.1B"
+}, {
+  "id": 34,
+  "sector": "Health Care",
+  "industry": "Major Pharmaceuticals",
+  "name": "Advanced Accelerator Applications S.A.",
+  "symbol": "AAAP",
+  "market_cap": "$1.63B"
+}, {
+  "id": 35,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Janus Henderson SG Global Quality Income ETF",
+  "symbol": "SGQI",
+  "market_cap": "n/a"
+}, {
+  "id": 36,
+  "sector": "Health Care",
+  "industry": "Medical/Dental Instruments",
+  "name": "Neovasc Inc.",
+  "symbol": "NVCN",
+  "market_cap": "$111.64M"
+}, {
+  "id": 37,
+  "sector": "Health Care",
+  "industry": "Industrial Specialties",
+  "name": "Zimmer Biomet Holdings, Inc.",
+  "symbol": "ZBH",
+  "market_cap": "$25.39B"
+}, {
+  "id": 38,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "First Trust RBA Quality Income ETF",
+  "symbol": "QINC",
+  "market_cap": "$28.13M"
+}, {
+  "id": 39,
+  "sector": "Health Care",
+  "industry": "Medical/Dental Instruments",
+  "name": "Glaukos Corporation",
+  "symbol": "GKOS",
+  "market_cap": "$1.39B"
+}, {
+  "id": 40,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Vanguard International Dividend Appreciation ETF",
+  "symbol": "VIGI",
+  "market_cap": "$408.55M"
+}, {
+  "id": 41,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Eastman Kodak Company",
+  "symbol": "KODK.WS",
+  "market_cap": "n/a"
+}, {
+  "id": 42,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "American Financial Group, Inc.",
+  "symbol": "AFW.CL",
+  "market_cap": "n/a"
+}, {
+  "id": 43,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Kimco Realty Corporation",
+  "symbol": "KIM^K",
+  "market_cap": "n/a"
+}, {
+  "id": 44,
+  "sector": "Health Care",
+  "industry": "Major Pharmaceuticals",
+  "name": "Imprimis Pharmaceuticals, Inc.",
+  "symbol": "IMMY",
+  "market_cap": "$60.4M"
+}, {
+  "id": 45,
+  "sector": "Public Utilities",
+  "industry": "Electric Utilities: Central",
+  "name": "Pattern Energy Group Inc.",
+  "symbol": "PEGI",
+  "market_cap": "$2.08B"
+}, {
+  "id": 46,
+  "sector": "Consumer Durables",
+  "industry": "Automotive Aftermarket",
+  "name": "Caseys General Stores, Inc.",
+  "symbol": "CASY",
+  "market_cap": "$4.23B"
+}, {
+  "id": 47,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "Oak Valley Bancorp (CA)",
+  "symbol": "OVLY",
+  "market_cap": "$112.21M"
+}, {
+  "id": 48,
+  "sector": "Health Care",
+  "industry": "Major Pharmaceuticals",
+  "name": "Arbutus Biopharma Corporation",
+  "symbol": "ABUS",
+  "market_cap": "$198.09M"
+}, {
+  "id": 49,
+  "sector": "Technology",
+  "industry": "Professional Services",
+  "name": "RCM Technologies, Inc.",
+  "symbol": "RCMT",
+  "market_cap": "$61.61M"
+}, {
+  "id": 50,
+  "sector": "Consumer Services",
+  "industry": "Hotels/Resorts",
+  "name": "Full House Resorts, Inc.",
+  "symbol": "FLL",
+  "market_cap": "$53.96M"
+}, {
+  "id": 51,
+  "sector": "Consumer Services",
+  "industry": "Real Estate Investment Trusts",
+  "name": "MFA Financial, Inc.",
+  "symbol": "MFA",
+  "market_cap": "$3.2B"
+}, {
+  "id": 52,
+  "sector": "Public Utilities",
+  "industry": "Electric Utilities: Central",
+  "name": "NextEra Energy Partners, LP",
+  "symbol": "NEP",
+  "market_cap": "$1.91B"
+}, {
+  "id": 53,
+  "sector": "Consumer Services",
+  "industry": "Transportation Services",
+  "name": "GATX Corporation",
+  "symbol": "GATX",
+  "market_cap": "$2.54B"
+}, {
+  "id": 54,
+  "sector": "Health Care",
+  "industry": "Major Pharmaceuticals",
+  "name": "Juniper Pharmaceuticals, Inc.",
+  "symbol": "JNP",
+  "market_cap": "$55.3M"
+}, {
+  "id": 55,
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "name": "Analog Devices, Inc.",
+  "symbol": "ADI",
+  "market_cap": "$29.38B"
+}, {
+  "id": 56,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "Fulton Financial Corporation",
+  "symbol": "FULT",
+  "market_cap": "$3.33B"
+}, {
+  "id": 57,
+  "sector": "Consumer Services",
+  "industry": "Real Estate Investment Trusts",
+  "name": "CIM Commercial Trust Corporation",
+  "symbol": "CMCT",
+  "market_cap": "$1.46B"
+}, {
+  "id": 58,
+  "sector": "Technology",
+  "industry": "EDP Services",
+  "name": "GoDaddy Inc.",
+  "symbol": "GDDY",
+  "market_cap": "$7.15B"
+}, {
+  "id": 59,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Hercules Capital, Inc.",
+  "symbol": "HTGC",
+  "market_cap": "$1.1B"
+}, {
+  "id": 60,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "ROBO Global Robotics and Automation Index ETF",
+  "symbol": "ROBO",
+  "market_cap": "$158.98M"
+}, {
+  "id": 61,
+  "sector": "Energy",
+  "industry": "Oil & Gas Production",
+  "name": "Geopark Ltd",
+  "symbol": "GPRK",
+  "market_cap": "$449.75M"
+}, {
+  "id": 62,
+  "sector": "Health Care",
+  "industry": "Major Pharmaceuticals",
+  "name": "Corcept Therapeutics Incorporated",
+  "symbol": "CORT",
+  "market_cap": "$1.21B"
+}, {
+  "id": 63,
+  "sector": "Finance",
+  "industry": "Property-Casualty Insurers",
+  "name": "AmTrust Financial Services, Inc.",
+  "symbol": "AFST",
+  "market_cap": "n/a"
+}, {
+  "id": 64,
+  "sector": "Health Care",
+  "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+  "name": "Sangamo Therapeutics, Inc.",
+  "symbol": "SGMO",
+  "market_cap": "$535.95M"
+}, {
+  "id": 65,
+  "sector": "Consumer Services",
+  "industry": "Catalog/Specialty Distribution",
+  "name": "Systemax Inc.",
+  "symbol": "SYX",
+  "market_cap": "$685.51M"
+}, {
+  "id": 66,
+  "sector": "Energy",
+  "industry": "Oilfield Services/Equipment",
+  "name": "Eco-Stim Energy Solutions, Inc.",
+  "symbol": "ESES",
+  "market_cap": "$18.78M"
+}, {
+  "id": 67,
+  "sector": "Finance",
+  "industry": "Savings Institutions",
+  "name": "Riverview Bancorp Inc",
+  "symbol": "RVSB",
+  "market_cap": "$148.35M"
+}, {
+  "id": 68,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Vanguard Long-Term Corporate Bond ETF",
+  "symbol": "VCLT",
+  "market_cap": "$1.91B"
+}, {
+  "id": 69,
+  "sector": "Health Care",
+  "industry": "Major Pharmaceuticals",
+  "name": "Revance Therapeutics, Inc.",
+  "symbol": "RVNC",
+  "market_cap": "$725.05M"
+}, {
+  "id": 70,
+  "sector": "Miscellaneous",
+  "industry": "Multi-Sector Companies",
+  "name": "RPX Corporation",
+  "symbol": "RPXC",
+  "market_cap": "$656.65M"
+}, {
+  "id": 71,
+  "sector": "Miscellaneous",
+  "industry": "Industrial Machinery/Components",
+  "name": "Canon, Inc.",
+  "symbol": "CAJ",
+  "market_cap": "$38.48B"
+}, {
+  "id": 72,
+  "sector": "Health Care",
+  "industry": "Medical/Dental Instruments",
+  "name": "Surmodics, Inc.",
+  "symbol": "SRDX",
+  "market_cap": "$333.24M"
+}, {
+  "id": 73,
+  "sector": "Consumer Services",
+  "industry": "Real Estate Investment Trusts",
+  "name": "Saul Centers, Inc.",
+  "symbol": "BFS",
+  "market_cap": "$1.28B"
+}, {
+  "id": 74,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Capital One Financial Corporation",
+  "symbol": "COF^F",
+  "market_cap": "n/a"
+}, {
+  "id": 75,
+  "sector": "Finance",
+  "industry": "Savings Institutions",
+  "name": "First Capital, Inc.",
+  "symbol": "FCAP",
+  "market_cap": "$103.8M"
+}, {
+  "id": 76,
+  "sector": "Consumer Services",
+  "industry": "Paper",
+  "name": "Veritiv Corporation",
+  "symbol": "VRTV",
+  "market_cap": "$695.1M"
+}, {
+  "id": 77,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "Boston Private Financial Holdings, Inc.",
+  "symbol": "BPFHP",
+  "market_cap": "n/a"
+}, {
+  "id": 78,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Nuveen Diversified Dividend and Income Fund",
+  "symbol": "JDD",
+  "market_cap": "$248.95M"
+}, {
+  "id": 79,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "Comerica Incorporated",
+  "symbol": "CMA",
+  "market_cap": "$13.11B"
+}, {
+  "id": 80,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "PowerShares DWA Industrials Momentum Portfolio",
+  "symbol": "PRN",
+  "market_cap": "$121.11M"
+}, {
+  "id": 81,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "Fifth Third Bancorp",
+  "symbol": "FITB",
+  "market_cap": "$19.11B"
+}, {
+  "id": 82,
+  "sector": "Technology",
+  "industry": "Computer Manufacturing",
+  "name": "Apple Inc.",
+  "symbol": "AAPL",
+  "market_cap": "$741.77B"
+}, {
+  "id": 83,
+  "sector": "Energy",
+  "industry": "Oil & Gas Production",
+  "name": "Sabine Royalty Trust",
+  "symbol": "SBR",
+  "market_cap": "$541.62M"
+}, {
+  "id": 84,
+  "sector": "Finance",
+  "industry": "Savings Institutions",
+  "name": "BofI Holding, Inc.",
+  "symbol": "BOFIL",
+  "market_cap": "n/a"
+}, {
+  "id": 85,
+  "sector": "Transportation",
+  "industry": "Trucking Freight/Courier Services",
+  "name": "Heartland Express, Inc.",
+  "symbol": "HTLD",
+  "market_cap": "$1.73B"
+}, {
+  "id": 86,
+  "sector": "Technology",
+  "industry": "Computer Software: Prepackaged Software",
+  "name": "CA Inc.",
+  "symbol": "CA",
+  "market_cap": "$13.23B"
+}, {
+  "id": 87,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "National Bankshares, Inc.",
+  "symbol": "NKSH",
+  "market_cap": "$300.24M"
+}, {
+  "id": 88,
+  "sector": "Consumer Services",
+  "industry": "Real Estate Investment Trusts",
+  "name": "Paramount Group, Inc.",
+  "symbol": "PGRE",
+  "market_cap": "$3.79B"
+}, {
+  "id": 89,
+  "sector": "Consumer Non-Durables",
+  "industry": "Shoe Manufacturing",
+  "name": "Wolverine World Wide, Inc.",
+  "symbol": "WWW",
+  "market_cap": "$2.57B"
+}, {
+  "id": 90,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "Old Point Financial Corporation",
+  "symbol": "OPOF",
+  "market_cap": "$150.3M"
+}, {
+  "id": 91,
+  "sector": "Finance",
+  "industry": "Major Banks",
+  "name": "Northern Trust Corporation",
+  "symbol": "NTRSP",
+  "market_cap": "$434.24M"
+}, {
+  "id": 92,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Morgan Stanley Asia-Pacific Fund, Inc.",
+  "symbol": "APF",
+  "market_cap": "$224.53M"
+}, {
+  "id": 93,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Gladstone Investment Corporation",
+  "symbol": "GAIN",
+  "market_cap": "$305.91M"
+}, {
+  "id": 94,
+  "sector": "Public Utilities",
+  "industry": "Electric Utilities: Central",
+  "name": "Great Plains Energy Inc",
+  "symbol": "GXP",
+  "market_cap": "$6.45B"
+}, {
+  "id": 95,
+  "sector": "Consumer Non-Durables",
+  "industry": "Packaged Foods",
+  "name": "J.M. Smucker Company (The)",
+  "symbol": "SJM",
+  "market_cap": "$14.17B"
+}, {
+  "id": 96,
+  "sector": "Energy",
+  "industry": "Industrial Machinery/Components",
+  "name": "Ideal Power Inc.",
+  "symbol": "IPWR",
+  "market_cap": "$29.95M"
+}, {
+  "id": 97,
+  "sector": "Health Care",
+  "industry": "Medical/Dental Instruments",
+  "name": "Orthofix International N.V.",
+  "symbol": "OFIX",
+  "market_cap": "$808.57M"
+}, {
+  "id": 98,
+  "sector": "n/a",
+  "industry": "n/a",
+  "name": "Tortoise Energy Independence Fund, Inc.",
+  "symbol": "NDP",
+  "market_cap": "$197.71M"
+}, {
+  "id": 99,
+  "sector": "Consumer Services",
+  "industry": "Television Services",
+  "name": "Liberty Global plc",
+  "symbol": "LILA",
+  "market_cap": "$3.5B"
+}, {
+  "id": 100,
+  "sector": "Finance",
+  "industry": "Business Services",
+  "name": "Conyers Park Acquisition Corp.",
+  "symbol": "CPAAW",
+  "market_cap": "n/a"
+}]
