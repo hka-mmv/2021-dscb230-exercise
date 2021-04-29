@@ -1,3 +1,3 @@
 '''
-This ist how we do it!
+This is how we do it!
 '''
