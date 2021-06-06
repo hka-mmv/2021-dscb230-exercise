@@ -66,3 +66,14 @@ Datenanalyse am Beispiel Airbnb New York unter Verwendung der Methode CRISP-DM
 | Datenvorbereitung<br>**DATA PREPARATION**<br><br>_Konstruktion einer grundlegenden Population_ | - Metadaten der Datenquelle erfassen<br>- Auswahl relevanter Daten<br>- Daten organisieren und ggf. in Data Sets aufteilen<br>- Daten bereinigen | Scrum Team untersucht die Datenquelle und macht PO Vorschläge der relevanten Daten mit Begründung.<br><br>Data Sets je nach Analysekontext |
 | Modellierung<br>**MODELING**<br><br>_Konzeption eines Modells, das die Anforderungen maximal erfüllt_ | _Normalerweise wird diese Method angewandt.<br>Für unsere Übung ist es allerdings nicht passend, deshalb lassen wir dies weg._ |  |
 | Analyse und Interpretation<br>**EVALUATION & DEPLOYMENT**<br><br>_Aufbereitung und Präsentation der Ergebnisse_ | **TODO**<br>Aufbereitung der Data Preparation zu jedem Sprint Meeting.<br><br>Die Abschlusspräsentation wird in der Projektarbeit bearbeitet. | Siehe **Übung 3**: Optionale Unit Tests in GitHub Verzeichnis `e3`<br><br>Deployment der Abschlusspräsentation in GitHub Verzeichnis `p` |
+
+## Legende zur Bezeichnung der Backlog Items bzw. Issues
+
+| Thema                  | Abkürzung | Beispiel                         |
+| ---------------------- | :-------: | -------------------------------- |
+| Business Unterstanding |    BU     | 1-BU_GRUPPE_E1_Issue_Description |
+| Data Understanding     |    DU     | 2-DU_GRUPPE_E1_Issue_Description |
+| Data Preparation       |    DP     | 3-DP_GRUPPE_E1_Issue_Description |
+| Modeling               |    MD     | 4-MD_GRUPPE_E1_Issue_Description |
+| Evaluation             |    EV     | 5-EV_GRUPPE_E1_Issue_Description |
+| Deployment             |    DT     | 6-DT_GRUPPE_E1_Issue_Description |
