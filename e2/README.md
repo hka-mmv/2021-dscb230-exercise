@@ -21,9 +21,12 @@
 4. Bitte erstellen Sie benötigte Dokumente in Ihrem GitHub Repo im entsprechendem Gruppenverzeichnis in `e2`.
 5. Erstellen Sie Issues mit einer eindeutigen Nummer entsprechend der Backlog Items je Gruppe.
 6. Erstellen Sie Feature-Branches auf Basis der Issues
+
    - Siehe `Git-Merkblatt.pdf` und Tutorium `T_20210504_solution.pdf`
    - Bezeichnen Sie den Branch entsprechend der Syntax, siehe Legende.
-   - Bitte denken Sie an den `git push`, damit Ihre lokalen Änderungen in das remote Repo übertragen werden.
+
+   > Bitte denken Sie an den `git push`, damit Ihre lokalen Änderungen in das remote Repo übertragen werden.
+
 7. Definition of Done. Nachdem in einem Sprint Meeting ein Feature abgenommen wurde, kann der Branch in `main` gemerget werden. Dies wird durch eine designierte Person im Entwicklerteam durchgeführt.
 
 **Vorgehensweise zur Erstellung der Issues**
