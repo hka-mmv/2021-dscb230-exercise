@@ -45,9 +45,9 @@
 
 | Thema | Abkürzung | Syntax | _Beispiel_ |
 | --- | :-: | --- | --- |
-| Business Unterstanding | BU | 1-BU_GRUPPE_E2_Nummer | _1-BU_Alpha_E2_001_ |
-| Data Understanding | DU | 2-DU_GRUPPE_E2_Nummer |  |
-| Data Preparation | DP | 3-DP_GRUPPE_E2_Nummer |  |
-| Modeling | MD | 4-MD_GRUPPE_E2_Nummer |  |
-| Evaluation | EV | 5-EV_GRUPPE_E2_Nummer |  |
-| Deployment | DT | 6-DT_GRUPPE_E2_Nummer |  |
+| Business Unterstanding | BU | 1-BU_GRUPPE_E2_Issue_Description | _1-BU_Alpha_E2_Issue_Description_ |
+| Data Understanding | DU | 2-DU_GRUPPE_E2_Issue_Description |  |
+| Data Preparation | DP | 3-DP_GRUPPE_E2_Issue_Description | _1-DP_Alpha_E2_Issue_Description_ |
+| Modeling | MD | 4-MD_GRUPPE_E2_Issue_Description |  |
+| Evaluation | EV | 5-EV_GRUPPE_E2_Issue_Description |  |
+| Deployment | DT | 6-DT_GRUPPE_E2_Issue_Description |  |
