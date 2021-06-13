@@ -6,7 +6,7 @@ import requests
 class example:
 
     def __init__(self):
-        self.data = self.read("e1/lecturer/AB_NYC_2019.csv")
+        self.data = self.read("../../e1/lecturer/AB_NYC_2019.csv")
         self.url = "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/AB_NYC_2019.csv.zip"
 
     # --------------- GET THE DATA ---------------

@@ -7,14 +7,15 @@ import requests
 
 class example(unittest.TestCase):
 
-    # fetch and read should return the same, so if the dataframe of fetch
+    # Fetch and read should return the same, so if the dataset of fetch
     # is equal to read, we've done everything right!
 
     def test_read(self):
         obj = example()
         fetched = obj.fetch(
-            "https://raw.githubusercontent.com/fivethirtyeight/data/master/nba-elo/nbaallelo.csv")
-        readed = obj.read("../../e1/lecturer/nbaallelo.csv")
+            "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/NYPD_Complaint_Map__Year_to_Date.csv")
+        readed = obj.read(
+            "../../e1/lecturer/NYPD_Complaint_Map__Year_to_Date.csv")
         self.assertEqual(fetched, readed)
 
     def test_get_position(self):  # get specific value of index
