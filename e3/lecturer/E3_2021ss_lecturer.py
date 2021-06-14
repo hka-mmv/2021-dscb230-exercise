@@ -100,9 +100,9 @@ class example:
 
 obj = example()
 # print(obj.get_tail())
-print(obj.get_info())
-print(obj.data.dtypes)
-print(obj.data.describe())
+# print(obj.get_info())
+# print(obj.data.dtypes)
+# print(obj.data.describe())
 print(obj.dropnullvalues())
 row = len(obj.data)
 col = len(obj.data.columns)

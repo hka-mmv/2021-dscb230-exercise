@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd
-# TODO import your path to the main python file (with logic, ...)
+# TODO: Import your module with the logic (implementation)
 import E3_2021ss_lecturer
 import requests
 
@@ -12,6 +12,7 @@ class example(unittest.TestCase):
 
     def test_read(self):
         obj = example()
+        obj.get_head
         fetched = obj.fetch(
             "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/NYPD_Complaint_Map__Year_to_Date.csv")
         readed = obj.read(
