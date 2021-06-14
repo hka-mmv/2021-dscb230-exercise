@@ -100,9 +100,15 @@ class example:
 
 obj = example()
 # print(obj.get_tail())
+<< << << < HEAD
 # print(obj.get_info())
 # print(obj.data.dtypes)
 # print(obj.data.describe())
+== == == =
+print(obj.get_info())
+print(obj.data.dtypes)
+print(obj.data.describe())
+>>>>>> > parent of c741576... Delete E3_2021ss_lecturer.py
 print(obj.dropnullvalues())
 row = len(obj.data)
 col = len(obj.data.columns)
