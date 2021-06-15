@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+import seaborn
 import requests
 # TODO import module for requests
 
@@ -8,16 +9,18 @@ import requests
 class example:
 
     def __init__(self):
-        self.data = self.read("../../e1/lecturer/AB_NYC_2019.csv")
+        self.data = pd.read_csv("AB_NYC_2019.csv")
         self.url = "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/AB_NYC_2019.csv.zip"
 
     # --------------- GET THE DATA ---------------
 
     def fetch(self, url):
         """This Method fetches a dataset from a given url"""
-
+        
         # NOTE: Fetching a HTTP request usually needs "try except"!
         try:
+            r = requests.get(url = url)
+            dataset=pd.read_json(r.json())
             # TODO Get the dataset via using method requests to get URL
         except requests.exceptions.Timeout:
             # Maybe set up for a retry, or continue in a retry loop
@@ -30,14 +33,15 @@ class example:
             raise SystemExit(e)
         return dataset
 
-    def read(self, filename):
+    def read(self, filename:str):
         """This method reads a given file
 
-        It can important any file extension like json, csv, etc.
+        It can import any file extension like json, csv, etc.
         """
         data = None
         # TODO Aufgabe 1
-        # NOTE: Use "assert" if filename contains a dot for the extension (data not okay, data.csv okay)
+        
+        assert(filename.endswith('.'))
         return data
 
     # --------------- DATA UNDERSTANDING ---------------
