@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import requests
+# TODO import module for requests
 
 
 class example:
@@ -15,10 +15,8 @@ class example:
         """This Method fetches a dataset from a given url"""
 
         # NOTE: Fetching a HTTP request usually needs "try except"!
-        # TODO
         try:
-            r = requests.get(url)
-            dataset = r
+            # TODO Get the dataset via using method requests to get URL
         except requests.exceptions.Timeout:
             # Maybe set up for a retry, or continue in a retry loop
             pass
@@ -36,12 +34,8 @@ class example:
         It can important any file extension like json, csv, etc.
         """
         data = None
-
+        # TODO Aufgabe 1
         # NOTE: Use "assert" if filename contains a dot for the extension (data not okay, data.csv okay)
-        # TODO
-        assert "." in filename, f"{filename} is not valid filename"  # TODO
-        data = pd.read_csv(filename)  # TODO
-        print(data)  # TODO
         return data
 
     # --------------- DATA UNDERSTANDING ---------------
@@ -63,11 +57,11 @@ class example:
         return self.data.tail()
 
     def get_info(self, verbose=True):
-        """This Method reads the info out of the data"""
+        """This method prints information about a DataFrame including the index dtype and columns, non-null values and memory usage."""
         return self.data.info()
 
     def get_shape(self):
-        """This Method reads tbd"""
+        """Return a tuple representing the dimensionality of the DataFrame."""
         return self.data.shape
 
     def get_value(self, key):
@@ -76,6 +70,7 @@ class example:
 
     # --------------- DATA PREPARATION ---------------
 
+    # TODO
     def dropnullvalues(self):
         """ This method drops rows which contains missing values.
 
@@ -99,20 +94,7 @@ class example:
 
 
 obj = example()
-# print(obj.get_tail())
-<< << << < HEAD
-# print(obj.get_info())
-# print(obj.data.dtypes)
-# print(obj.data.describe())
-== == == =
-print(obj.get_info())
-print(obj.data.dtypes)
-print(obj.data.describe())
->>>>>> > parent of c741576... Delete E3_2021ss_lecturer.py
-print(obj.dropnullvalues())
-row = len(obj.data)
-col = len(obj.data.columns)
-print(row, col)
+# TODO Run you tested implementation on the dataset.
 
 # For this plot we need a customized data set.
 # Use index of the data frame for selecticing specific columns.

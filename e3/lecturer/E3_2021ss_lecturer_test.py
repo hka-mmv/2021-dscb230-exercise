@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 # TODO: Import your module with the logic (implementation)
-import E3_2021ss_lecturer
+
 import requests
 
 
@@ -37,15 +37,15 @@ class example(unittest.TestCase):
         obj.data = pd.util.testing.makeDataFrame()
         self.assertEqual(obj.data[-10:], obj.get_tail(10))
 
-    # straight forward, watch test_get_head()
+    # Straight forward, watch test_get_head()
     def test_get_type(self):  # test the dtypes method
         pass
 
-    # straight forward, watch test_get_head()
+    # Straight forward, watch test_get_head()
     def test_get_info(self):  # describe / info
         pass
 
-    # straight forward, watch test_get_head()
+    # Straight forward, watch test_get_head()
     def test_get_null(self):  # test the drop null method
         pass
 
