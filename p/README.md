@@ -17,8 +17,8 @@
    - Reihenfolge: Gruppenname alphabetisch aufsteigend
    - Termine: siehe ILIAS-Kurs
 3. Inhalt:  
-   Bitte beschreiben in Stichworten den Weg und die Entwicklungsschritte, die Sie seit Beginn der Projektarbeit gegangen sind. Die Übungen e1, e2 und e3 sind die Basis, auf die ihre Projektarbeit aufbaut. Hier können Sie erlernte Kenntnisse und Fähigkeiten sowie ihre erarbeiteten Ergbeniss einfließen lassen. Diese können auch Screenshots aus GitHub oder aus ihren Programmen bzw. Jupyter Notebooks enthalten.
+   Bitte beschreiben in Stichworten den Weg und die Entwicklungsschritte, die Sie seit Beginn der Projektarbeit gegangen sind. Die Übungen e1, e2 und e3 sind die Basis, auf die ihre Projektarbeit aufbaut. Hier können Sie erlernte Kenntnisse und Fähigkeiten sowie ihre erarbeiteten Ergbenisse einfließen lassen. Diese können auch Screenshots aus GitHub oder aus ihren Programmen bzw. Jupyter Notebooks enthalten.
 4. Setzen Sie ihren Fokus bei der Ergebnispräsentation auf die Analyse des bearbeiteten Dataset in ihrem Business-Anwendungsfall.
-5. Stellen Sie an passenden Stellen den Bezug zur Anforderung her (Feature zu Requirement).
+5. Stellen Sie an passenden Stellen den Bezug zur Anforderung her (`Feature` zu `Requirement`).
 6. Beschreiben Sie, wie Sie mit Schwierigkeiten umgegangen sind und welchen Lösungsansatz Sie verwendet haben.
-7. Zeigen Sie in einer Live-Demo ihre Datenauswertung, sofern es ihr Arbeitsstand ermöglicht.
+7. Zeigen Sie in einer `Live-Demo` ihre Datenauswertung, sofern es ihr Arbeitsstand ermöglicht.
