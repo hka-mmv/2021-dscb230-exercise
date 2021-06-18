@@ -1,4 +1,4 @@
-# Projektarbeit
+# Projektarbeit – Datenauswertung am Beispiel von Airbnb NYC (300 Punkte)
 
 ## Lernziel
 
@@ -6,7 +6,7 @@
 2. Sie können in einer größeren Gruppenarbeit gemeinsam eine Spezifikation erarbeiten.
 3. Sie können Anforderungen erheben und mit Ihnen Umgehen.
 4. Sie können eine Datenauswertung durchführen.
-5. Sie können ihre Ergebnisse im Plenung präsentieren.
+5. Sie können ihre Ergebnisse im Plenum präsentieren.
 
 ## Aufgabenstellung
 
