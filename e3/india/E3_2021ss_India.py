@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-import seaborn
+import seaborn as sns
 import requests
 # TODO import module for requests
 
@@ -38,7 +38,8 @@ class example:
 
         It can import any file extension like json, csv, etc.
         """
-        data = None
+        data = open(filename, 'r')
+        data = data.read()
         # TODO Aufgabe 1
         
         assert(filename.endswith('.'))
@@ -74,6 +75,14 @@ class example:
         """This Method returns every value for a given key"""
         return self.data[key]
 
+    def get_type(self):
+        """This Method returns dtypes of the DataFrame"""
+        return self.data.dtypes
+
+    def get_null(self):
+        """This Method detect missing values """
+        return self.data.isnull()
+
     # --------------- DATA PREPARATION ---------------
 
     # TODO
@@ -83,7 +92,7 @@ class example:
         See also https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html
         """
         return self.data.dropna(axis=1)
-
+       
     # --------------- VISUALIZATION ---------------
 
     def draw_hist(self):
@@ -92,11 +101,12 @@ class example:
 
     def draw_facetgrid(self):
         """This Method draws a facetgrid"""
-        pass
+        sns.FacetGrid(self.data, col=self.data["longitude"],  row=self.data["latitude"])
 
     def draw_scatter(self):
         """This Method draws a scatter plot"""
-        pass
+        self.data.plot.scatter(x=self.data["longitude"], y=self.data["latitude"])
+
 
 
 obj = example()

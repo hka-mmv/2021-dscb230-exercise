@@ -1,4 +1,5 @@
 import unittest
+from numpy import dtype
 import pandas as pd
 from E3_2021ss_India import example
 # TODO: Import your module with the logic (implementation)
@@ -40,22 +41,28 @@ class example(unittest.TestCase):
 
     # Straight forward, watch test_get_head()
     def test_get_type(self):  # test the dtypes method
-        pass
+        obj = example()
+        obj.data = pd.util.testing.makeDataFrame()
+        self.assertEqual(obj.data.dtypes, obj.get_type())
 
     # Straight forward, watch test_get_head()
     def test_get_info(self):  # describe / info
-        pass
+        obj = example()
+        obj.data = pd.util.testing.makeDataFrame()
+        self.assertEqual(obj.data.info(), obj.get_info())
 
     # Straight forward, watch test_get_head()
     def test_get_null(self):  # test the drop null method
-        pass
+        obj = example()
+        obj.data = pd.util.testing.makeDataFrame()
+        self.assertEqual(obj.data.isnull(), obj.get_null())
 
     # We can determine the size and test that, easy testing.
-    def test_get_size(self):  # test the col and row method
+    def test_get_shape(self):  # test the col and row method
         obj = example()
         obj.fetch(
             "https://raw.githubusercontent.com/fivethirtyeight/data/master/nba-elo/nbaallelo.csv")
-        self.assertEqual(obj.get_size(), (126313, 23))
+        self.assertEqual(obj.get_shape(), (126313, 23))
 
 
 if __name__ == '__main__':
