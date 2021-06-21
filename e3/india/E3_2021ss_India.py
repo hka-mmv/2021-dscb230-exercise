@@ -10,7 +10,7 @@ class example:
 
     def __init__(self):
         self.data = pd.read_csv("AB_NYC_2019.csv")
-        self.url = "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/AB_NYC_2019.csv.zip"
+        self.url = "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/AB_NYC_2019.csv.zip"    
 
     # --------------- GET THE DATA ---------------
 
@@ -19,15 +19,15 @@ class example:
         
         # NOTE: Fetching a HTTP request usually needs "try except"!
         try:
-            r = requests.get(url = url)
+            r = requests.get(url = url, timeout=10)
             dataset=pd.read_json(r.json())
             # TODO Get the dataset via using method requests to get URL
         except requests.exceptions.Timeout:
             # Maybe set up for a retry, or continue in a retry loop
-            pass
+            print("Timeout of the request")
         except requests.exceptions.TooManyRedirects:
             # Tell the user their URL was bad and try a different one
-            pass
+            print("Your URL was bad. Please try a different one.")
         except requests.exceptions.RequestException as e:
             # catastrophic error. bail.
             raise SystemExit(e)
@@ -92,6 +92,8 @@ class example:
         See also https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html
         """
         return self.data.dropna(axis=1)
+
+
        
     # --------------- VISUALIZATION ---------------
 
@@ -101,7 +103,8 @@ class example:
 
     def draw_facetgrid(self):
         """This Method draws a facetgrid"""
-        sns.FacetGrid(self.data, col=self.data["longitude"],  row=self.data["latitude"])
+        g = sns.FacetGrid(self.data, col='neighbourhood_group')
+        return g.map(plt.scatter, 'price', 'number_of_reviews')
 
     def draw_scatter(self):
         """This Method draws a scatter plot"""
