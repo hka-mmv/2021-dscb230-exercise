@@ -12,8 +12,8 @@
 
 1. Bitte lesen Sie sich in das Thema ein und machen sich damit vertraut.
 2. Bitte folgenden Sie den Hinweisen im Dokument `E3_2021ss_Gruppe.docx`.
-3. Bitte erstellen Sie benötigte Dokumente in Ihrem GitHub Repo im entsprechendem Gruppenverzeichnis in `e3`.
-4. Task 1
+3. Bitte laden Sie sich aus dem Verzeichnis `e3/lecturer` die Dateien `E3_2021ss_lecturer.py` und `E3_2021ss_lecturer_test.py` in ihr lokales Projekt-Verzeichnis herunter. Letztere Datei ist nach dem TDD-Prinzip erstellt worden. Sie dient ihnen als Basis für die Verwendung von Qualitätssicherungsverfahren. Es sind bereits einige Softwaretests vorhanden. Diese überprüfen Methoden, um Informationen aus einem Dataset zu erhalten.
+4. Bitte erstellen Sie benötigte Dokumente in Ihrem GitHub Repo im entsprechendem Gruppenverzeichnis in `e3`.
 
 ## Aufgabe 2: Qualitätssicherungsverfahren Try and Except sowie Unit Tests (15 Punkte)
 
@@ -27,9 +27,9 @@ Test-Driven Development (dt. _testgesteuerte Programmierung_) kurz TDD ist ein P
 
 ### Aufgabenstellung
 
-1. Bitte laden Sie sich aus dem Verzeichnis e3/lecturer in GitHub die Datei E3_2021ss_lecturer_test.py in ihr lokales Projekt-Verzeichnis herunter. Diese Datei ist nach dem TDD-Prinzip erstellt worden. Sie dient ihnen als Basis für die Verwendung von Qualitätssicherungsverfahren. Es sind bereits einige Softwaretests vorhanden. Diese überprüfen Methoden, um Informationen aus einem Dataset zu erhalten.
-2. Machen Sie sich mit dem Code vertraut und führen Sie pytest aus.
-3.
+1. Bitte lesen Sie sich in das Thema ein und machen sich damit vertraut.
+2. Bitte folgenden Sie den Hinweisen im Dokument `E3_2021ss_Gruppe.docx`.
+3. Machen Sie sich mit dem Code vertraut und führen Sie pytest aus.
 
 ## Quellen
 
