@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from pandas.io.parsers import read_csv
+import seaborn as sns
 
 # TODO import module for requests
 import requests
@@ -9,7 +10,7 @@ import requests
 class example:
 
     def __init__(self):
-        self.data = self.read("AB_NYC_2019(cleaned).csv")
+        self.data = self.read("AB_NYC_2019cleaned.csv")
         self.url = "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/AB_NYC_2019.csv.zip"
 
     # --------------- GET THE DATA ---------------
@@ -38,7 +39,6 @@ class example:
 
     def read(self, filename):
         """This method reads a given file
-
         It can important any file extension like json, csv, etc.
         """
         data = None
@@ -50,7 +50,6 @@ class example:
         data = pd.read_csv(filename)
 
         return data
-
     # --------------- DATA UNDERSTANDING ---------------
 
     # This section contains methods for searching the dataset for specific characteristics.
@@ -99,13 +98,11 @@ class example:
 
     def draw_facetgrid(self):
         """This Method draws a facetgrid"""
-        # Frage: Welche Spalten?
-        pass
+        sns.FacetGrid(self.data, col=self.data["longitude"],  row=self.data["latitude"])
 
     def draw_scatter(self):
         """This Method draws a scatter plot"""
-        # Frage: Welche Spalten?
-        pass
+        plt.scatter(x=self.data["longitude"], y=self.data["latitude"])
 
 
 obj = example()
