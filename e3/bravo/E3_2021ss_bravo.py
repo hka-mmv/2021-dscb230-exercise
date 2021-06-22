@@ -12,7 +12,6 @@ class example:
         self.data = self.read("AB_NYC_2019(cleaned).csv")
         self.url = "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/AB_NYC_2019.csv.zip"
 
-
     # --------------- GET THE DATA ---------------
 
     def fetch(self, url):
@@ -22,7 +21,7 @@ class example:
         try:
             # TODO Get the dataset via using method requests to get URL
             dataset = pd.read_csv(self.url)
-            
+
         except requests.exceptions.Timeout:
             # Maybe set up for a retry, or continue in a retry loop
             print("Timeout")
@@ -37,7 +36,6 @@ class example:
 
         return dataset
 
-
     def read(self, filename):
         """This method reads a given file
 
@@ -47,10 +45,10 @@ class example:
         # TODO Aufgabe 1
         # NOTE: Use "assert" if filename contains a dot for the extension (data not okay, data.csv okay)
 
-        assert(filename == r'.\.csv')
+        assert (filename.endswith('.csv'))
 
         data = pd.read_csv(filename)
-        
+
         return data
 
     # --------------- DATA UNDERSTANDING ---------------
