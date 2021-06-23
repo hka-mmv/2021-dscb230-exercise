@@ -9,8 +9,8 @@ import requests
 class example:
 
     def __init__(self):
-        self.data = pd.read_csv("AB_NYC_2019.csv")
-        self.url = "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/AB_NYC_2019.csv.zip"
+        self.data = self.read("e3\india\AB_NYC_2019.csv")
+        self.url = "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/AB_NYC_2019.csv.zip"    
 
     # --------------- GET THE DATA ---------------
 
@@ -19,15 +19,15 @@ class example:
         
         # NOTE: Fetching a HTTP request usually needs "try except"!
         try:
-            r = requests.get(url = url)
+            r = requests.get(url = url, timeout=10)
             dataset=pd.read_json(r.json())
             # TODO Get the dataset via using method requests to get URL
         except requests.exceptions.Timeout:
             # Maybe set up for a retry, or continue in a retry loop
-            pass
+            print("Timeout of the request")
         except requests.exceptions.TooManyRedirects:
             # Tell the user their URL was bad and try a different one
-            pass
+            print("Your URL was bad. Please try a different one.")
         except requests.exceptions.RequestException as e:
             # catastrophic error. bail.
             raise SystemExit(e)
@@ -38,12 +38,25 @@ class example:
 
         It can import any file extension like json, csv, etc.
         """
-        data = open(filename, 'r')
-        data = data.read()
+        assert(filename.endswith('.csv')),f'{filename} has no falid file extension'
+
+        dataf = pd.read_csv(filename)
+
+        #v1
+        #filenames=filename.split('/')
+
+        # with (filenames, 'r') as data:
+        #      dataf = pd.DataFrame(data)
+
+        #v2
+        # data = open(filename, 'r')
+        # data = data.read()
+
         # TODO Aufgabe 1
         
-        assert(filename.endswith('.'))
-        return data
+        #assert(filename.endswith('.'))
+        
+        return dataf
 
     # --------------- DATA UNDERSTANDING ---------------
 
@@ -59,9 +72,9 @@ class example:
         """This Method reads the head out of the data"""
         return self.data.head(limit)
 
-    def get_tail(self):
+    def get_tail(self,limit=10):
         """This Method reads the tail out of the data"""
-        return self.data.tail()
+        return self.data.tail(limit)
 
     def get_info(self, verbose=True):
         """This method prints information about a DataFrame including the index dtype and columns, non-null values and memory usage."""
@@ -92,6 +105,8 @@ class example:
         See also https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html
         """
         return self.data.dropna(axis=1)
+
+
        
     # --------------- VISUALIZATION ---------------
 
@@ -101,7 +116,8 @@ class example:
 
     def draw_facetgrid(self):
         """This Method draws a facetgrid"""
-        sns.FacetGrid(self.data, col=self.data["longitude"],  row=self.data["latitude"])
+        g = sns.FacetGrid(self.data, col='neighbourhood_group')
+        return g.map(plt.scatter, 'price', 'number_of_reviews')
 
     def draw_scatter(self):
         """This Method draws a scatter plot"""
