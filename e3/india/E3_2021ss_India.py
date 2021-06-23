@@ -38,7 +38,7 @@ class example:
 
         It can import any file extension like json, csv, etc.
         """
-        assert(filename.endswith('.csv'))
+        assert(filename.endswith('.csv')),f'{filename} has no falid file extension'
 
         dataf = pd.read_csv(filename)
 
