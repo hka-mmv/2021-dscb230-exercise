@@ -72,9 +72,9 @@ class example:
         """This Method reads the head out of the data"""
         return self.data.head(limit)
 
-    def get_tail(self):
+    def get_tail(self,limit=10):
         """This Method reads the tail out of the data"""
-        return self.data.tail()
+        return self.data.tail(limit)
 
     def get_info(self, verbose=True):
         """This method prints information about a DataFrame including the index dtype and columns, non-null values and memory usage."""

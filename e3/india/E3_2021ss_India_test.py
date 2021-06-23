@@ -7,7 +7,7 @@ from E3_2021ss_India import example
 import requests
 
 
-class example(unittest.TestCase):
+class example1(unittest.TestCase):
 
     # Fetch and read should return the same, so if the dataset of fetch
     # is equal to read, we've done everything right!
