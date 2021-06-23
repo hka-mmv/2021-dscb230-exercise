@@ -18,7 +18,7 @@ class example(unittest.TestCase):
         fetched = obj.fetch(
             "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/NYPD_Complaint_Map__Year_to_Date.csv")
         readed = obj.read(
-            "../../e1/lecturer/NYPD_Complaint_Map__Year_to_Date.csv")
+            "e3/india/NYPD_Complaint_Map__Year_to_Date.csv")
         self.assertEqual(fetched, readed)
 
     def test_get_position(self):  # get specific value of index

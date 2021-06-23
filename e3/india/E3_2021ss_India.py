@@ -9,7 +9,7 @@ import requests
 class example:
 
     def __init__(self):
-        self.data = pd.read_csv("AB_NYC_2019.csv")
+        self.data = self.read("e3\india\AB_NYC_2019.csv")
         self.url = "https://github.com/hka-mmv/dscb230-exercise/blob/main/e1/lecturer/AB_NYC_2019.csv.zip"    
 
     # --------------- GET THE DATA ---------------
@@ -38,12 +38,25 @@ class example:
 
         It can import any file extension like json, csv, etc.
         """
-        data = open(filename, 'r')
-        data = data.read()
+        assert(filename.endswith('.csv'))
+
+        dataf = pd.read_csv(filename)
+
+        #v1
+        #filenames=filename.split('/')
+
+        # with (filenames, 'r') as data:
+        #      dataf = pd.DataFrame(data)
+
+        #v2
+        # data = open(filename, 'r')
+        # data = data.read()
+
         # TODO Aufgabe 1
         
-        assert(filename.endswith('.'))
-        return data
+        #assert(filename.endswith('.'))
+        
+        return dataf
 
     # --------------- DATA UNDERSTANDING ---------------
 
