@@ -21,7 +21,7 @@ Scrum als agiles und iteratives Prozessmodell im Kontext eines Data Science Proj
 | Sprint Meeting 2 | Montag, 14.06.2021, 14:00 Uhr |  |
 | Ergebnispräsentation | Dienstag, 22.06.2021, 9:50 Uhr | Gruppe b |
 | Ergebnispräsentation | Freitag, 25.06.2021, 9:50 Uhr | Gruppe a |
-| Product Backlog | Gesamte Anforderungen an die Datenauswertung werden im Product Backlog festgehalten, in das der PO jederzeit Ideen für neue Anforderungen eintragen kann. | GitHub Projekt [2021-summerterm](https://github.com/orgs/hka-mmv/projects/2) via [GitHub Issues](https://github.com/hka-mmv/dscb230-exercise/issues) mit Label `requirement` |
+| Product Backlog | Gesamte Anforderungen an die Datenauswertung werden im Product Backlog festgehalten, in das der PO jederzeit Ideen für neue Anforderungen eintragen kann. | GitHub Projekt [2021-summerterm](https://github.com/orgs/hka-mmv/projects/2) via [GitHub Issues](https://github.com/hka-mmv/dscb230-exercise/issues) mit Label `requirement`, Issues [Doku](https://docs.github.com/en/issues) |
 | Sprint Meeting | Besprechung der Anforderungen, die tatsächlich im nächsten Sprint umgesetzt werden sollen. Festgelegt durch PO. Die Entwickler bestimmen, wie viele dieser Anforderungen im Sprint möglich sind. | Sprint Backlog |
 | Sprint Backlog | Die Anforderungen für den nächsten Sprint. Änderungen am Sprint Backlog während des Sprints sind nicht erlaubt. | Sprint Backlog |
 | Spint | Entwickler arbeiten autonom alle Anforderungen, die für den Sprint vorgesehen sind. |  |
